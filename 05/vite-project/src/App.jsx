@@ -16,7 +16,7 @@ function App() {
     <div>
       {/* <MansageData></MansageData> */}
       {/* <ListRender></ListRender> */}
-      {/*Loop em arrey*/}
+      {/* Loop em arrey */}
       {name.map((names)=>(
         <ShowUserName key={name.age} name = {names}></ShowUserName>
       ))}

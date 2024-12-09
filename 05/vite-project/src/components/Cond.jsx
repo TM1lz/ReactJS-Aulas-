@@ -8,7 +8,7 @@ export default function Cond() {
       {name === "Joao" ? <p>Nome Joao</p> : <p>Nome nao encontrado</p>}
       <button
         onClick={() => {
-          setName("Matheus");
+          setName("Matheus" ,  "Eduardo");
         }}
       >
         Button
