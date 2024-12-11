@@ -1,6 +1,7 @@
 // import MansageData from './components/MansageData'
 // import ListRender from './components/ListRender'
-import ShowUserName from "./components/ShowUserName";
+// import ShowUserName from "./components/ShowUserName";
+import Myfrom from "./components/Myfrom";
 import "./App.css";
 // import Cond from './components/Cond'
 function App() {
@@ -17,9 +18,14 @@ function App() {
       {/* <MansageData></MansageData> */}
       {/* <ListRender></ListRender> */}
       {/* Loop em arrey */}
-      {name.map((names)=>(
+      {/* {name.map((names)=>(
         <ShowUserName key={name.age} name = {names}></ShowUserName>
-      ))}
+      ))} */}
+      <Myfrom></Myfrom>
+      {/* Dinamic H1 usando if */}
+      {/* <h1 style={ n <2 ? {color : "red" } : {color : "blue"}}>Este é h1 é com if</h1>
+      <h1 className={classTilte ? "red-tilte" : "tilte"}>Este h1 com className</h1>
+       */}
     </div>
   );
 }
